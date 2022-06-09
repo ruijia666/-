@@ -1,0 +1,88 @@
+
+        .index{
+            display: block
+        }
+        .main{
+            width: 33vw;
+            height: 50vh;
+            position: relative;
+            margin: 0 auto;
+            padding-top: 15%;
+        }
+        body{
+            padding: 0;
+            margin: 0;
+            background: url(../assets/2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            overflow: hidden;
+            
+        }
+        .signbox{
+            display: flex;
+            position: absolute;
+            width: 33vw;
+            height: 30vh;
+            text-align: center;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        input{
+            width: 70%;
+            border-radius: 5px;
+            border: 0px;
+            height: 33px;
+            padding: 10px;
+        }
+        h5{
+            font-size: 18px;
+            color: white;
+            font-weight: 50;
+        }
+        button{
+            height: 35px;
+            width: 30%;
+            background-color: rgb(24, 144, 255);
+            border: 0px;
+            border-radius: 5px;
+            box-shadow: 5px;
+            color: white;
+            font-size: 10px;
+        }
+        .buttonbox{
+            display: flex;
+            position: relative;
+            left: 15px;
+            width: 95%;
+            justify-content: space-evenly;
+        }
+        .end{
+            display: flex;
+            position: absolute;
+            width: 33vw;
+            height: 5vh;
+            left: 50%;
+            top: 130%;
+            margin-left: -16.5vw;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            color: white;
+        }
+        .icon{
+            position: relative;
+            font-family:"iconfont" !important;
+        }
+        @font-face {
+  font-family: 'iconfont';  /* Project id 3426182 */
+  src: url('https://at.alicdn.com/t/font_3426182_dfkon87g98q.woff2?t=1653400770758') format('woff2'),
+       url('https://at.alicdn.com/t/font_3426182_dfkon87g98q.woff?t=1653400770758') format('woff'),
+       url('https://at.alicdn.com/t/font_3426182_dfkon87g98q.ttf?t=1653400770758') format('truetype');
+}
+        .iconfont{
+            position: absolute;
+            right: 17%;
+            top:14%;
+            color: rgb(213, 213, 213);
+        }
+    

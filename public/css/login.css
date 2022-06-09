@@ -1,0 +1,126 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: url(../assets/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.main{
+    width: 33vw;
+    height: 60vh;
+    position: relative;
+    margin:0 auto;
+    padding-top: 12%;
+    text-align: center;
+}
+.loginbox{
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+input{
+    width: 70%;
+    border-radius: 5px;
+    border: 0px;
+    height: 20px;
+    padding: 10px;
+}
+button{
+    height: 35px;
+    width: 30%;
+    background-color: rgb(24, 144, 255);
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 5px;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+}
+.buttonbox{
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: space-evenly;
+}
+h3{
+    color: white;
+    font-weight: 10;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.end{
+    display: flex;
+    position: absolute;
+    width: 33vw;
+    height: 7vh;
+    left: 50%;
+    top: 95%;
+    margin-left: -16.5vw;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+}
+.ipt1{
+    position: relative;
+}
+.ipt2{
+    position: relative;
+}
+.ipt3{
+    position: relative;
+    font-family:"iconfont" !important;
+}
+.ipt4{
+    position: relative;
+    font-family:"iconfont" !important;
+}
+@keyframes appear{
+0%{
+    display: none;
+}
+50%{
+    display: none;
+}
+100%{
+    display: flex;
+}
+}
+.error1{
+    text-align: center;
+    position: absolute;
+    left: 14%;
+    font-family:"iconfont" !important;
+}
+.error2{
+    text-align: center;
+    position: absolute;
+    left: 14%;
+    font-family:"iconfont" !important;
+}
+.error3{
+    text-align: center;
+    position: absolute;
+    left: 14%;
+    font-family:"iconfont" !important;
+}
+.error4{
+    text-align: center;
+    position: absolute;
+    left: 14%;
+    font-family:"iconfont" !important;
+}
+@font-face {
+font-family: 'iconfont';  /* Project id 3426182 */
+src: url('https://at.alicdn.com/t/font_3426182_dfkon87g98q.woff2?t=1653400770758') format('woff2'),
+url('https://at.alicdn.com/t/font_3426182_dfkon87g98q.woff?t=1653400770758') format('woff'),
+url('https://at.alicdn.com/t/font_3426182_dfkon87g98q.ttf?t=1653400770758') format('truetype');
+}
+.iconfont{
+    position: absolute;
+    right: 16%;
+    top:29%;
+    color: rgb(213, 213, 213);
+}
